@@ -69,7 +69,7 @@ for y in range(0, height, GRID_SIZE):
     for x in range(0, width, GRID_SIZE):
         solution = generate([(x, y, x + GRID_SIZE, y + GRID_SIZE), 0, 0, 0], image)
         solutions.append(solution)
-        draw.rectangle(solution[0], fill=(solution[1], solution[2], solution[3], 255))
+        draw.ellipse(solution[0], fill=(solution[1], solution[2], solution[3], 255))
 
 im = im.convert('RGB')
 print(f'--- {time.time() - start_time} seconds ---')
