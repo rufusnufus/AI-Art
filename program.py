@@ -62,9 +62,6 @@ def selection(population, probability):
 
 
 def crossover(population):
-
-    # generate new array for population with CROSSOVER_RATE of crossovered mates
-    # new_population = population.copy()
     
     # array for parents that will be crossovered
     parents = []
