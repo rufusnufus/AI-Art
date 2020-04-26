@@ -129,7 +129,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     # read the image
-    image = cv2.imread('./img/warrior.png')
+    image = cv2.imread('./img/dragon.jpg')
     # convert to rgb schema, because by default it is bgr
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -160,4 +160,4 @@ if __name__ == "__main__":
     plt.imshow(im)
     plt.show()
     # save the image
-    im.save('./img/catresult.png')     
+    im.save('./img/result.png')     
