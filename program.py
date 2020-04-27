@@ -7,7 +7,7 @@ import time
 
 
 # determine constants
-GRID_SIZE = 10
+GRID_SIZE = 8
 CHROMOSOMES_NUMBER = 50
 MUTATION_RATE = 0.5
 CROSSOVER_RATE = 0.3
