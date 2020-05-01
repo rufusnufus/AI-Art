@@ -1,7 +1,7 @@
 # AI-Art
 Reproducing given image using Genetic Algorithm\
-<img src="img/dragon.jpg" width="400">
-<img src="img/result.png" width="400">
+<img src="img/dragon.jpg" width="425">
+<img src="img/result.png" width="425">
 
 ## Introduction
 In this assignment I use genetic algorithm for testing how good evolution theory is in art field. My program tries to reproduce the piece of art and gets something new, beautiful and awesome. This report briefly describes the work and ideas that were applied in the program.
